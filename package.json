@@ -1,0 +1,23 @@
+{
+  "name": "updated_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Yasha",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashaleo/Updated_Portfolio.git"
+  },
+  "author": "Yasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashaleo/Updated_Portfolio/issues"
+  },
+  "homepage": "https://github.com/yashaleo/Updated_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
