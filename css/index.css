@@ -59,16 +59,6 @@
     background: rgba(172, 98, 241, 0.8);
   }
   
-
-  
-  .section-contact {
-    position: relative;
-  }
-  
-  .section-contact .card-panel {
-    position: relative;
-    z-index: 1;
-  }
   
   
   @media (max-width: 600px) {
