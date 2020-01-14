@@ -1,69 +1,66 @@
 .primary-overlay {
-    background: rgba(63, 57, 77, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
+  background: rgba(63, 57, 77, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/codeBG.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 90px;
+}
+
+.options {
+  margin: 10px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.section-reminder {
+  position: relative;
+  background: url(../img/codeLife.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 460px;
+}
+
+.cap {
+  background: rgba(245, 189, 91, 0.8);
+}
+
+.cap2 {
+  background: rgba(235, 194, 81, 0.8);
+}
+
+.cap3 {
+  background: rgba(119, 172, 216, 0.8);
+}
+
+.cap4 {
+  background: rgba(172, 98, 241, 0.8);
+}
+
+@media (max-width: 600px) {
   .main-header {
-    background: url(../img/codeBG.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    min-height: 600px;
-    color: #fff;
-    position: relative;
+    height: 50vh;
   }
-  
-  .main-header .showcase {
-    padding-top: 90px;
-  }
-
-  .options {
-      margin: 10px;
-  }
-  
-  .scroll-icon {
-    position: absolute;
-    bottom: 5%;
-    left: 47%;
-    opacity: 0.5;
-  }
-
-  .section-reminder {
-    position: relative;
-    background: url(../img/codeLife.jpg);
-    background-size: cover;
-    background-position: center;
-    border-top: #333 solid 5px;
-    border-bottom: #333 solid 5px;
-    min-height: 460px;
-  }
-
-  .cap {
-    background: rgba(245, 189, 91, 0.8);
-  }
-
-  .cap2 {
-    background: rgba(235, 194, 81, 0.8);
-  }
-
-  .cap3 {
-    background: rgba(119, 172, 216, 0.8);
-  }
-
-    .cap4 {
-    background: rgba(172, 98, 241, 0.8);
-  }
-  
-  
-  
-  @media (max-width: 600px) {
-    .main-header {
-      height: 50vh;
-    }
-  }
-  
+}
